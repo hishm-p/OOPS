@@ -54,8 +54,10 @@ class MatAdd
  { 
   Matrix mat1=new Matrix();
   Matrix mat2=new Matrix();
- 
+  
+  System.out.println("Enter the First Matrix is: ");
   mat1.writeData();
+  System.out.println("Enter the Second Matrix is: ");
   mat2.writeData();
   
   System.out.println("The First Matrix is: ");
